@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "helium",
+  "version": "${version}",
+  "name": "Helium",
+  "description": "Its a lightweight mod for all your platforms!",
+  "authors": [
+    "StevenPlayzz"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/helium",
+    "sources": "https://github.com/stevendevs/helium"
+  },
+  "license": "MIT",
+  "icon": "assets/helium/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.stevenplyazz.helium.fabric.HeliumFabric"
+    ]
+  },
+  "mixins": [
+    "helium.mixins.json",
+    "helium-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "architectury": ">=6.5.69"
+  }
+}

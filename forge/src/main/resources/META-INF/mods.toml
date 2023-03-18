@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "helium"
+version = "${version}"
+displayName = "Helium"
+authors = "StevenPlayzz"
+description = '''
+Its a lightweight mod for all your platforms!
+'''
+#logoFile = ""
+
+[[dependencies.helium]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.helium]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.helium]]
+modId = "architectury"
+mandatory = true
+versionRange = "[6.5.69,)"
+ordering = "AFTER"
+side = "BOTH"
